@@ -6,6 +6,7 @@ var client = require('./client');
 var util = require('./util');
 
 var kbfsFile = process.argv[2];
+var username = process.argv[3];
 
 if (!kbfsFile) {
   console.log('Please provide a file to watch');
@@ -15,6 +16,5 @@ if (!kbfsFile) {
   return process.exit(0);
 }
 
-var currentUser = util.whoami();
+var currentUser = username || util.whoami();
 var chatClient = new client(currentUser, kbfsFile);
-
