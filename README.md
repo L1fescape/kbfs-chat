@@ -18,3 +18,8 @@ node index.js /path/to/keybase/file
 ## Quit
 
 Press `escape` twice
+
+## Todo
+
+- Either remove `shelljs` and use more secure alternatives or fix areas where shell scripts can be injected (i.e. `node index.js /keybase/file; rm -rf /;`)
+- Tidy up code
