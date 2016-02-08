@@ -1,0 +1,18 @@
+{
+  "name": "kbfs-chat",
+  "version": "0.0.1",
+  "description": "Terminal chat client using a file within keybase file system",
+  "main": "index.js",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "chokidar": "^1.4.2",
+    "lodash": "^4.2.1",
+    "shelljs": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Kennedy <andrew@akenn.org>",
+  "license": "ISC"
+}
