@@ -26,9 +26,6 @@ module.exports = function(currentUser, kbfsFile) { // Create a screen object.
       fg: 'white',
       border: {
         fg: '#f0f0f0'
-      },
-      hover: {
-        bg: 'green'
       }
     }
   });
